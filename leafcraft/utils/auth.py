@@ -1,9 +1,9 @@
-from datetime import datetime, timedelta
+efrom datetime import datetime, timedelta
 from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 
-SECRET_KEY = "leafcraft-secret-2024"
+SECRET_KEY = {secret_key}
 ALGORITHM = "HS256"
 TOKEN_EXPIRE_MINUTES = 60 #Token expiry time set to 1 hour
 
