@@ -25,7 +25,7 @@ JWt for authentication
 
 How to run and setup instructions:
 ----------------------------------
-1. git clone <>
+1. git clone <https://github.com/MaddalaNarmada/leafcraft.git>
 cd leafcraft
 
 2. Install dependencies - pip install -r requirements.txt
@@ -137,3 +137,10 @@ Business Logic summary:
 Running Tests:
 --------------
 Enter " pytest tests/test_orders.py -v"
+
+
+
+Note:
+-----
+In database.py - need to use localhost credentials
+In auth.py - need to add secret key for authentication
